@@ -7,7 +7,7 @@ app.get('/', (c) => {
   return c.text('Hello Hono!')
 })
 
-const port = 3000
+const port = process.env.PORT || 10000
 console.log(`Server is running on http://localhost:${port}`)
 
 serve({
