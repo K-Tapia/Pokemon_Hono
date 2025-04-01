@@ -62,7 +62,7 @@ return c.json(filteredPokemon)
 
 });
 const port = process.env.PORT || 10000;
-console.log(`Server is running on http://localhost:${port}`);
+console.log(`Server is running on ${port} - ${process.env.PORT}`);
 
 serve({
   fetch: app.fetch,
