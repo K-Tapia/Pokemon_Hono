@@ -2,9 +2,9 @@
   "pokemon": [
     {
       "pokeName": "Bulbasaur",
-      "region": "Kanto",
+      "region": "kanto",
       "pokeNum": 1,
-      "pokeType": "Grass/Poison",
+      "pokeType": "Grass",
       "pokeImage": "bulbasaur.png",
       "pokeDescription": "The more sunlight Ivysaur bathes in, the more strength wells up within it, allowing the bud on its back to grow larger."
     },
